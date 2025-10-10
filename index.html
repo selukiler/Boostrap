@@ -9,32 +9,60 @@
 	<title>Grid de Bootstrap 5</title>
 </head>
 <body>
-<div class="container-fluid ">
-    <div class="row m-5 align-items-center">
-        <div class="col-8 bg-white fs-5 text-start p-4"><p class="fs-2 fw-bold">Main</p>8 Columnas<br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Grid de Bootstrap 5</title>
+</head>
+<body>
+
+<div class="container contenedor-main">
+    <header class="row mt-3">
+        <div class="col-12   text-white p-2"> <p class="fw-bold fs-3">Header <br></p><p>12 Columnas</p></div>
+    </header>
+    <div class="row my-3 align-items-center">
+        <div class="col-md-8 bg-white fs-5 text-start p-4">
+            <p class="fs-2 fw-bold">Main</p>8 Columnas<br><br>
             Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
             Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu, ligula ad dictum
             dignissim sociosqu. Venenatis himenaeos nostra vestibulum donec ridiculus tellus, cum eleifend viverra rutrum
             inceptos, fusce velit phasellus pulvinar leo. <br><br>Cubilia platea aliquet dictum suscipit elementum at rutrum
-            euismod natoque leo, tristique viverra gravida orci lacus odio proin torquent. Accumsan laoreet justo
-            facilisis libero pellentesque nec dictum suspendisse elementum, volutpat lectus mollis fringilla potenti
-            dapibus platea purus sapien, diam vel hac luctus fames natoque mus quis.</div>
-        <div class="col-4 bg-secondary text-start align-content-center text-info" style="height: 250px"><p class="fs-3 fw-bold">Aside</p><br> 4 Columnas</div>
+            euismod natoque leo, tristique viverra gravida orci lacus odio proin torquent.
+        </div>
+       <aside class="col-md-4 text-start align-content-center"style="height: 250px">
+            <p  class="fw-bold fs-1">Aside</p>4 Columnas</p>
+        </aside>
     </div>
-</div>
 
-<div class="container ">
-    <div class="row justify-content-around text-center">
-        <div class="col-3 bg-primary p-3">3 columnas<br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
-            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu, ligula ad dictum
-            dignissim sociosqu. </div>
-        <div class="col-3 bg-primary p-3">3 columnas<br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
-            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu, ligula ad dictum
-            dignissim sociosqu. </div>
-        <div class="col-3 bg-primary p-3">3 columnas <br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
-            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu, ligula ad dictum
-            dignissim sociosqu.</div>
+    <div class="row justify-content-between text-center mb-3">
+        <div class="col-md-3 bg-primary p-3 text-white">
+            3 columnas<br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
+            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu.
+        </div>
+        <div class="col-md-3 bg-primary p-3 text-white">
+            3 columnas<br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
+            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu.
+        </div>
+        <div class="col-md-3 bg-primary p-3 text-white">
+            3 columnas <br> Lorem ipsum dolor sit amet consectetur adipiscing elit at, elementum porttitor ligula tortor in semper fermentum.
+            Enim dui tellus lobortis natoque leo imperdiet, eros purus himenaeos molestie platea eu.
+        </div>
     </div>
+
+    <footer class="row mb-3">
+        <div class="col-12 ">
+            <p class="text-white fs-2">Footer</p><p class="text-white"> 12 Columnas</p>
+        </div>
+    </footer>
+
+</div> <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
 </div>
 
 
